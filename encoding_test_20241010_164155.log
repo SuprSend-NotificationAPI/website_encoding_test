@@ -1,0 +1,5 @@
+2024-10-10 16:41:55,522 - INFO - Starting full encoding test
+2024-10-10 16:41:55,887 - INFO - Testing HTTP Headers for: https://pieces.app
+2024-10-10 16:41:55,887 - INFO - Content-Type header: text/html
+2024-10-10 16:41:56,553 - INFO - Found valid meta charset tag
+2024-10-10 16:41:57,957 - INFO - Report generated: encoding_report_20241010_164157.json

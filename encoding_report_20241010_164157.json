@@ -1,0 +1,50 @@
+{
+  "url": "https://pieces.app",
+  "timestamp": "2024-10-10T16:41:55.522844",
+  "tests": {
+    "http_headers": {
+      "success": false,
+      "message": "Content-Type header missing charset declaration"
+    },
+    "html_meta": {
+      "success": false,
+      "message": [
+        "Missing or invalid meta content-type tag"
+      ]
+    },
+    "content_encoding": {
+      "success": true,
+      "details": {
+        "Japanese": {
+          "success": true,
+          "message": "Successfully encoded and decoded"
+        },
+        "Korean": {
+          "success": true,
+          "message": "Successfully encoded and decoded"
+        },
+        "Russian": {
+          "success": true,
+          "message": "Successfully encoded and decoded"
+        },
+        "Chinese": {
+          "success": true,
+          "message": "Successfully encoded and decoded"
+        },
+        "Vietnamese": {
+          "success": true,
+          "message": "Successfully encoded and decoded"
+        },
+        "Special": {
+          "success": true,
+          "message": "Successfully encoded and decoded"
+        }
+      }
+    },
+    "detected_encoding": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": ""
+    }
+  }
+}
